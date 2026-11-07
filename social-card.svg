@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" role="img" aria-labelledby="title description">
+  <title id="title">Union Foundation</title>
+  <desc id="description">Authority, trust, and governance. Clear authority. Trust, made accountable.</desc>
+  <rect width="1200" height="630" fill="#f4f8fd"/>
+  <path d="M810 0h390v630H810z" fill="#0a1b37"/>
+  <path d="M0 0h1200v18H0z" fill="#0752c8"/>
+  <g transform="translate(82 82)">
+    <rect width="68" height="68" fill="#0752c8"/>
+    <path d="m34 9 19 11v22L34 53 15 42V20L34 9Z" fill="none" stroke="#12b8e8" stroke-width="2"/>
+    <path d="M26 24v11a8 8 0 0 0 16 0V24M19 20l9 5m22-5-9 5M19 42l10-7m20 7-10-7" fill="none" stroke="#f4f8fd" stroke-width="3"/>
+    <circle cx="34" cy="49" r="3" fill="#12b8e8"/>
+  </g>
+  <text x="174" y="116" fill="#111c37" font-family="Arial, sans-serif" font-size="28" font-weight="700">UNION FOUNDATION</text>
+  <text x="174" y="146" fill="#586985" font-family="Arial, sans-serif" font-size="14" letter-spacing="2">AUTHORITY / TRUST / GOVERNANCE</text>
+  <path d="M82 251h44" stroke="#12b8e8" stroke-width="4"/>
+  <text x="82" y="298" fill="#0752c8" font-family="Arial, sans-serif" font-size="18" font-weight="700" letter-spacing="3">A TRUST AND GOVERNANCE FOUNDATION</text>
+  <text x="82" y="382" fill="#111c37" font-family="Arial, sans-serif" font-size="68" font-weight="700" letter-spacing="-2">Clear authority.</text>
+  <text x="82" y="465" fill="#0752c8" font-family="Arial, sans-serif" font-size="68" font-weight="700" letter-spacing="-2">Trust, made accountable.</text>
+  <text x="82" y="535" fill="#586985" font-family="Arial, sans-serif" font-size="22">Certificates · Licenses · Registrations · Digital trust</text>
+  <path d="M856 181h260M856 182v268m0 0h260" fill="none" stroke="#354d70" stroke-width="1"/>
+  <text x="880" y="224" fill="#66d9f7" font-family="monospace" font-size="15" letter-spacing="2">PUBLIC FRAMEWORK</text>
+  <text x="880" y="288" fill="#f4f8fd" font-family="Arial, sans-serif" font-size="29" font-weight="700">Policy first.</text>
+  <text x="880" y="335" fill="#f4f8fd" font-family="Arial, sans-serif" font-size="29" font-weight="700">Record ready.</text>
+  <text x="880" y="382" fill="#f4f8fd" font-family="Arial, sans-serif" font-size="29" font-weight="700">Open to review.</text>
+  <circle cx="1086" cy="489" r="8" fill="#12b8e8"/>
+  <text x="880" y="535" fill="#b9c9df" font-family="monospace" font-size="14" letter-spacing="1">UNION.CYBERDEEP.QZZ.IO</text>
+</svg>
