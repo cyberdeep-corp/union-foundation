@@ -51,8 +51,9 @@ textarea:focus-visible {
 .site-header {
   padding: 0 0 4.5rem;
   background:
-    radial-gradient(circle at 82% 36%, rgba(7, 82, 200, 0.08), transparent 34%),
-    var(--paper);
+    radial-gradient(circle at 82% 36%, rgba(7, 82, 200, 0.18), transparent 34%),
+    var(--navy);
+  color: var(--paper);
 }
 
 .site-nav-wrap {
@@ -61,38 +62,26 @@ textarea:focus-visible {
   justify-content: space-between;
   align-items: center;
   gap: 2rem;
-  border-bottom: 1px solid var(--line);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.15);
 }
 
 .brand-link {
   display: inline-flex;
   align-items: center;
-  gap: 0.75rem;
-  color: var(--ink);
-  font-weight: 750;
+  padding: 0.25rem 0.55rem;
+  border-radius: 0.4rem;
+  background: transparent;
   text-decoration: none;
   white-space: nowrap;
 }
 
 .brand-mark {
   display: block;
-  width: 2.4rem;
-  height: 2.4rem;
+  width: auto;
+  height: 3.25rem;
   flex: 0 0 auto;
+  max-width: 15rem;
   object-fit: contain;
-}
-
-.brand-copy {
-  display: grid;
-  line-height: 1.2;
-}
-
-.brand-copy small {
-  margin-top: 0.3rem;
-  color: var(--muted);
-  font-size: 0.61rem;
-  font-weight: 650;
-  letter-spacing: 0.08em;
 }
 
 .site-nav {
@@ -103,7 +92,7 @@ textarea:focus-visible {
 }
 
 .site-nav a {
-  color: #41516d;
+  color: #dce7f5;
   font-size: 0.9rem;
   font-weight: 650;
   text-decoration: none;
@@ -111,7 +100,7 @@ textarea:focus-visible {
 
 .site-nav a:hover,
 .site-nav a[aria-current="page"] {
-  color: var(--blue);
+  color: #66d9f7;
   text-decoration: underline;
   text-underline-offset: 5px;
 }
@@ -133,6 +122,21 @@ textarea:focus-visible {
   font-weight: 750;
   letter-spacing: 0.1em;
   text-transform: uppercase;
+}
+
+.site-header .brand-label,
+.site-header .eyebrow {
+  color: #66d9f7;
+}
+
+.site-header .hero-copy,
+.site-header .section-heading > p:not(.eyebrow),
+.site-header .header-grid > div > p:not(.brand-label) {
+  color: #c0cce0;
+}
+
+.site-header h1 em {
+  color: #66d9f7;
 }
 
 .brand-label::before {
@@ -494,6 +498,18 @@ h3 {
   padding: 2rem 0;
   background: var(--navy);
   color: #e7effb;
+}
+
+.footer-brand {
+  display: inline-flex;
+  flex: 0 0 auto;
+}
+
+.footer-mark {
+  display: block;
+  width: 11rem;
+  height: auto;
+  object-fit: contain;
 }
 
 .footer-grid {
